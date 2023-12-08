@@ -1,7 +1,7 @@
 const ListOurService = () => {
   return (
     <>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 text-sm md:text-lg lg:text-xs  min-[1600px]:text-sm">
         <div className="flex flex-row gap-4">
           <span>
             <svg
@@ -21,7 +21,7 @@ const ListOurService = () => {
               />
             </svg>
           </span>
-          <p className="font-sans font-light text-sm">
+          <p className="font-sans font-light ">
             Sewa Mobil Dengan Supir di Bali 12 Jam
           </p>
         </div>
@@ -45,7 +45,7 @@ const ListOurService = () => {
               />
             </svg>
           </span>
-          <p className="font-sans font-light text-sm">
+          <p className="font-sans font-light ">
             Sewa Mobil Lepas Kunci di Bali 24 Jam
           </p>
         </div>
@@ -69,7 +69,7 @@ const ListOurService = () => {
               />
             </svg>
           </span>
-          <p className="font-sans font-light text-sm">
+          <p className="font-sans font-light ">
             Sewa Mobil Jangka Panjang Bulanan
           </p>
         </div>
@@ -93,7 +93,7 @@ const ListOurService = () => {
               />
             </svg>
           </span>
-          <p className="font-sans font-light text-sm">
+          <p className="font-sans font-light ">
             Gratis Antar - Jemput Mobil di Bandara
           </p>
         </div>
@@ -117,7 +117,7 @@ const ListOurService = () => {
               />
             </svg>
           </span>
-          <p className="font-sans font-light text-sm">
+          <p className="font-sans font-light ">
             Layanan Airport Transfer / Drop In Out
           </p>
         </div>

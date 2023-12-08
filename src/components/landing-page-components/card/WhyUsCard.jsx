@@ -1,6 +1,6 @@
 const WhyUsCard = () => {
   return (
-    <div className="flex flex-wrap lg:flex-nowrap w-full px-4 gap-4">
+    <div className="flex flex-wrap lg:flex-nowrap w-full px-4 md:px-10 min-[880px]:px-20 lg:px-10 min-[1190px]:px-20   gap-4">
       <div className="rounded-lg p-6 border-2 border-border lg:w-1/4 w-full">
         <div className="flex flex-col gap-4">
           <div>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import Button from "../../button/Button";
 import imageCar from "../../../assets/picture/car-img.png";
 
@@ -15,9 +17,9 @@ const Banner = () => {
             kebutuhanmu untuk sewa mobil selama 24 jam
           </p>
         </div>
-        <div>
+        <Link to={"car-search"}>
           <Button text={"Mulai Sewa Mobil"} />
-        </div>
+        </Link>
       </div>
 
       <div>

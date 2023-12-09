@@ -2,7 +2,7 @@ import { Accordion } from "flowbite-react";
 
 const FaqAccordion = () => {
   return (
-    <Accordion className="mx-4 md:mx-10 min-[880px]:mx-20 lg:mx-10 min-[1190px]:mx-20  ">
+    <Accordion className="mx-4 md:mx-10 min-[880px]:mx-20 lg:mx-10 min-[1190px]:mx-20 w-full ">
       <Accordion.Panel>
         <Accordion.Title>Apa saja syarat yang dibutuhkan?</Accordion.Title>
         <Accordion.Content>

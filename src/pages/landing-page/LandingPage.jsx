@@ -1,4 +1,3 @@
-import Navbar from "../../components/Navbar/Navbar";
 import Banner from "../../components/landing-page-components/banner/Banner";
 import imageService from "../../assets/picture/service-img.png";
 import ListOurService from "../../components/landing-page-components/list/ListOurService";
@@ -6,12 +5,10 @@ import WhyUsCard from "../../components/landing-page-components/card/WhyUsCard";
 import TestimonialCarousel from "../../components/landing-page-components/carousel/TestimonialCarousel";
 import RentalCard from "../../components/landing-page-components/card/RentalCard";
 import FaqAccordion from "../../components/landing-page-components/accordion/FaqAccordion";
-import Footer from "../../components/footer/footer";
 
 const LandingPage = () => {
   return (
     <div className="font-montserrat">
-      <Navbar />
       <Banner />
       <div className="mt-20 ml-6 mr-6 md:ml-32 md:mr-32 lg:ml-20 lg:space-x-16 lg:mr-20 min-[1800px]:ml-64  min-[1800px]:mr-64 min-[1620px]:ml-56  min-[1600px]:mr-56  min-[1190px]:ml-36  min-[1190px]:mr-36  min-[1500px]:mr-48  min-[1500px]:ml-48 flex flex-col lg:flex-row  space-y-10 items-center">
         <img
@@ -63,8 +60,8 @@ const LandingPage = () => {
         <RentalCard />
       </div>
 
-      <div className="mt-20">
-        <div className="px-4 lg:px-10 min-[1190px]:px-20    flex flex-col gap-4 w-full lg:w-5/12 mb-7">
+      <div className="mt-20 flex flex-col lg:flex-row">
+        <div className="px-4 lg:px-10 min-[1190px]:px-20    flex flex-col  gap-4 w-full lg:w-5/12 mb-7">
           <h2 className="flex justify-center font-bold font-sans text-2xl md:text-3xl  min-[1600px]:text-4xl  lg:justify-start">
             Frequently Asked Question
           </h2>
@@ -73,10 +70,6 @@ const LandingPage = () => {
           </p>
         </div>
         <FaqAccordion />
-      </div>
-
-      <div className="mt-12">
-        <Footer />
       </div>
     </div>
   );

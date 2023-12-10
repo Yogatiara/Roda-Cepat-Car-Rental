@@ -5,7 +5,7 @@ import imageCar from "../../../assets/picture/car-img.png";
 
 const Banner = () => {
   return (
-    <div className="flex flex-col lg:flex-row pt-24 md:pt-28 space-y-5 space-x-3 bg-[#F1F3FF] md:pl-10 min-[880px]:pl-20 lg:pl-10  min-[1190px]:pl-20">
+    <div className="flex flex-col lg:flex-row pt-20 md:pt-28 space-y-5 space-x-3 bg-[#F1F3FF] md:pl-10 min-[880px]:pl-20 lg:pl-10  min-[1190px]:pl-20">
       <div className="flex flex-col space-y-5 min-[1600px]:space-y-7 self-center w-full p-4">
         <div>
           <h1 className="font-bold text-4xl lg:text-2xl font-sans  min-[1190px]:text-4xl ">

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="w-full mx-auto  pt-[60px] mt-20">
+    <div className="w-full mx-auto  pt-[60px]">
       <div className="flex flex-wrap px-4 md:px-10 min-[880px]:px-20 min-[1190px]:px-20   min-[1600px]:text-lg lg:px-10 lg:flex-nowrap gap-16 pb-16 lg:justify-between text-sm ">
         <div className="flex flex-col gap-4  md:w-3/2 w-full font-sans  font-light">
           <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>

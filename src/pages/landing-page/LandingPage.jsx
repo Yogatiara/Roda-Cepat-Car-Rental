@@ -60,8 +60,8 @@ const LandingPage = () => {
         <RentalCard />
       </div>
 
-      <div className="mt-20 flex flex-col lg:flex-row">
-        <div className="px-4 lg:px-10 min-[1190px]:px-20    flex flex-col  gap-4 w-full lg:w-5/12 mb-7">
+      <div className="mt-20 flex flex-col lg:space-x-10 lg:flex-row mx-4 md:mx-10 min-[880px]:mx-20 lg:mx-10 min-[1190px]:mx-20">
+        <div className=" max-md:text-center  flex flex-col  gap-4 w-full lg:w-5/12 mb-7">
           <h2 className="flex justify-center font-bold font-sans text-2xl md:text-3xl  min-[1600px]:text-4xl  lg:justify-start">
             Frequently Asked Question
           </h2>

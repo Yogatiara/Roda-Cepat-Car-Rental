@@ -23,15 +23,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white fixed border-gray-200 border-b-2 dark:bg-gray-900">
-      <div className="w-screen flex flex-wrap items-center justify-between md:pr-10 md:pl-10 min-[880px]:pr-20 min-[880px]:pl-20 lg:pr-10 lg:pl-10  min-[1190px]:pr-20  min-[1190px]:pl-20 p-4">
+    <nav className="bg-white fixed z-10 border-gray-200 border-b-2 dark:bg-gray-900">
+      <div className="w-screen flex flex-wrap items-center justify-between md:pr-10 md:pl-10 min-[880px]:pr-20 min-[880px]:pl-20 lg:pr-10 lg:pl-10  min-[1190px]:pr-20  min-[1190px]:pl-20 p-3">
         <Link
           to={"/"}
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
             src="Logo/roda-cepat-car-rental-logo.png"
-            className="w-12 md:w-16"
+            className="w-10 md:w-16"
             alt="Flowbite Logo"
           />
         </Link>
